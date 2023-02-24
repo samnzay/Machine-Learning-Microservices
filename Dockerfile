@@ -14,7 +14,7 @@ COPY . /app
 # hadolint ignore=DL3013
 #RUN pip install --no-cache-dir  --upgrade pip &&\
     #pip install --no-cache-dir  -r requirements.txt --use-pep517
-RUN pip install --no-cache-dir --upgrade pip &&\
+RUN pip install --no-cache-dir --upgrade pip==23.0.1 &&\
     pip install --no-cache-dir --trusted-host pypi.python.org -r requirements.txt --use-pep517
 
 
