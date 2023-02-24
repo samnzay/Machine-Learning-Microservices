@@ -13,8 +13,8 @@ setup:
 
 install:
 	# This should be run from inside a virtualenv
-	sudo apt-get install libopenblas-dev
-	sudo apt-get install gfortran
+	apt-get install libopenblas-dev
+	apt-get install gfortran
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt --use-pep517
 
