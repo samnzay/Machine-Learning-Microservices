@@ -3,8 +3,10 @@ NAME              READY   STATUS    RESTARTS   AGE
 ml-microservice   1/1     Running   0          2m58s
 Forwarding from 0.0.0.0:8002 -> 80
 Handling connection for 8002
-Handling connection for 8002
-Handling connection for 8002
-Handling connection for 8002
-Handling connection for 8002
-Handling connection for 8002
+
+Port: 8002
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}

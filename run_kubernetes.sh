@@ -19,4 +19,4 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward pod/ml-microservice --address 0.0.0.0 8002:80
+# kubectl port-forward pod/ml-microservice --address 0.0.0.0 8002:80
